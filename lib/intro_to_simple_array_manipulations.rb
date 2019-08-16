@@ -1,10 +1,10 @@
 def using_push(array, string)
-
+array.push(string)
 end
 
 def using_unshift(array,string)
 
-  bouroughs_in_nyc.unshift("Staten Island")
+  array.unshift
 end
 
 def using_pop(array)
@@ -33,7 +33,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array,element)
-  array.insert(4)
+  array.insert("element",4)
 
 #This method takes in two arguments, an Array and a new element to be added to the array. it uses the .insert method to add the new element to the 4th index of the array.
 end
