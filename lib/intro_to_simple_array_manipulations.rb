@@ -11,8 +11,8 @@ def using_unshift(array,string)
 end
 
 def using_pop(array)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
+  array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  array.pop
  
  
   #This method takes in argument of an Array and uses the .pop method to remove the last element from the array and return that element.
