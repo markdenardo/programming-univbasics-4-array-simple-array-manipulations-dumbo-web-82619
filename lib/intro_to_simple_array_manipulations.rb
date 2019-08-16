@@ -12,7 +12,7 @@ end
 
 def using_pop(continents)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  array = continents.pop
+ continents.pop
  
  
   #This method takes in argument of an Array and uses the .pop method to remove the last element from the array and return that element.
