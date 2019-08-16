@@ -37,7 +37,7 @@ end
 
 def using_insert(array,element)
   
-  array.insert(element,4)
+  array.insert(4,element)
 
 #This method takes in two arguments, an Array and a new element to be added to the array. it uses the .insert method to add the new element to the 4th index of the array.
 end
